@@ -20,6 +20,8 @@ Metagenome or metaproteome functional annotation by full length gene or protein 
 
 python UniFam.py -c configFile -i inputfile
 
+see: https://bitbucket.org/jjchai/unifam
+
 2. Run big jobs
 
 use aprun or mpirun
