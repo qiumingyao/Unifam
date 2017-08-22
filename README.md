@@ -6,6 +6,7 @@ Metagenome or metaproteome functional annotation by full length gene or protein 
 4. unifam_mma/* : the C code wrapper, for distributing the annotation on multiple computer nodes.
 
 ##install Unifam and its distributed components:
+
 0. The distrubuted module needs MPI library. For example, module load openmpi/1.8.0
 1. copy or clone the repository to your own folder
 2. unzip the file folder using tar -xvzf
@@ -13,6 +14,7 @@ Metagenome or metaproteome functional annotation by full length gene or protein 
 4. cd unifam_mma/debug; make;
 
 ##how to use it
+
 1. Run small jobs on single node
 python UniFam.py -c configFile -i inputfile
 2. Run big jobs
